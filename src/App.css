@@ -1,3 +1,8 @@
+@font-face{
+    font-family:"Botsmatic Demo";
+    src: url("./assets/BotsmaticDemo-MXOr.ttf")
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +19,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     height: 100vh;
-    background: #2892D7;
+    background: linear-gradient(to bottom, rgba(244,173,173,1) 0%, rgba(231,151,162,1) 35%, rgba(255,107,91,1) 100%);
     align-content: center;
     padding: 0 1rem;
 }

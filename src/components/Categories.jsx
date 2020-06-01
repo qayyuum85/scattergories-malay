@@ -11,7 +11,7 @@ function Categories(props) {
     return (
         <div style={containerStyle}>
             {categories.map((category, idx) => {
-                return <Link key={idx} style={childStyle} to="/game">{category}</Link> 
+                return <Link key={idx} style={childStyle} to={`/categories/${category}`}>{category}</Link> 
             })}
         </div>
     )

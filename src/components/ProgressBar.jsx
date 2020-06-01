@@ -1,20 +1,20 @@
 import React from "react";
 import PropTypes from 'prop-types'
 function ProgressBar(props) {
-    const { bgcolor, completed } = props;
+    const { bgColor, completed } = props;
 
     const containerStyle = {
-        height: "32px",
+        flex: "10",
         borderRadius: 50,
         width: "100%",
-        margin: "0 10px",
         backgroundColor: "#e0e0de",
+        margin: "10px 0"
     };
 
     const barStyle = {
         height: "100%",
         width: `${completed}%`,
-        backgroundColor: bgcolor,
+        backgroundColor: bgColor,
         borderRadius: "inherit",
         textAlign: "right",
         transition: "width 1s ease-in-out"
@@ -29,7 +29,7 @@ function ProgressBar(props) {
     return (
         <div style={containerStyle}>
             <div style={barStyle}>
-                <span style={labelStyle}>{completed}</span>
+                <span style={labelStyle}></span>
             </div>
         </div>
     );
