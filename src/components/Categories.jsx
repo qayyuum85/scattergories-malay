@@ -1,12 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import gameData from '../assets/gamedata.json';
 
 function Categories(props) {
-    const categories = [
-        "Countries",
-        "Animals",
-        "Things"
-    ]
+    const categories = gameData.categories.map((category)=> {
+        return category.category;
+    })
 
     return (
         <div style={containerStyle}>

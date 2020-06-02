@@ -1,5 +1,5 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -8,23 +8,26 @@ function Header() {
             <Link to="/" style={linkStyle}>
                 Home
             </Link>{" "}
-            |{" "}<Link to="/categories" style={linkStyle}>Categories</Link>
+            |{" "}
+            <Link to="/categories" style={linkStyle}>
+                Categories
+            </Link>
         </div>
     );
 }
 
 const headerStyle = {
     textAlign: "center",
-    flex: "0 1 15vh"
-}
+    flex: "0 1 15vh",
+};
 
 const headerTitle = {
-    fontFamily: "Botsmatic Demo"
-}
+    fontFamily: "Botsmatic Demo",
+};
 
 const linkStyle = {
     textDecoration: "none",
-    cursor: "pointer"
-}
+    cursor: "pointer",
+};
 
-export default Header
+export default Header;

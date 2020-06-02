@@ -32,6 +32,10 @@ function Game(props) {
         [setTotalScore]
     );
 
+    const handleSubmitWord = (word) => {
+        submitWord(word, match.params.handle)
+    }
+
     if (gameStatus === "started") {
         return (
             <div style={gameStyle}>
@@ -41,7 +45,7 @@ function Game(props) {
                     onUpdate={onTotalScoreUpdate}
                 ></WordList>
                 <Timer time={60} onTimerEnd={onTimerEnd}></Timer>
-                <AddWord submitWord={submitWord}></AddWord>
+                <AddWord submitWord={handleSubmitWord}></AddWord>
             </div>
         );
     }

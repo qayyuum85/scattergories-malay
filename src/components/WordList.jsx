@@ -7,7 +7,7 @@ function reducer(state, action) {
     switch (action.type) {
         case "getTotal":
             return action.words.reduce((acc, val) => {
-                return acc + val.score;
+                return acc + parseInt(val.score);
             }, 0);
         default:
             return state;
@@ -28,7 +28,7 @@ function WordList({ words, onUpdate }) {
                 {words.map((wordScore, wordIndex) => {
                     const { word, score } = wordScore;
                     return (
-                        <Word key={wordIndex} word={word} score={score}></Word>
+                        <Word key={wordIndex} word={word} score={parseInt(score)}></Word>
                     );
                 })}
             </div>

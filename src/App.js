@@ -4,18 +4,59 @@ import Header from "./components/layouts/Header";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Categories from "./components/Categories";
 import Game from "./components/Game";
+import gameData from "./assets/gamedata.json";
+import fzSort from "fuzzysort";
 
 function App() {
     const [words, setEnteredWord] = useState([]);
 
-    const submitWord = (word) => {
+    const submitWord = (word, category) => {
         if (word.trim().length) {
-            const wordScore = {
-                word: word.trim(),
-                score: 10,
+            const options = {
+                limit: 3,
+                allowTypo: true,
+                threshold: -10000,
+                key: "name",
             };
 
-            setEnteredWord([...words, wordScore]);
+            const foundIndex = gameData.categories.findIndex((cat) => {
+                return cat.category === category;
+            });
+
+            if (foundIndex >= 0) {
+                const result = fzSort.go(
+                    word,
+                    gameData.categories[foundIndex].data,
+                    options
+                );
+
+                if (result.length) {
+                    const bestMatch = result[0].obj;
+
+                    if (words.map((w) => w.word).includes(bestMatch.name, 0)) {
+                        console.log("same word entered");
+                        return;
+                    }
+
+                    setEnteredWord([
+                        ...words,
+                        {
+                            word: bestMatch.name,
+                            score: bestMatch.score,
+                        },
+                    ]);
+
+                    return;
+                }
+
+                setEnteredWord([
+                    ...words,
+                    {
+                        word,
+                        score: 0,
+                    },
+                ]);
+            }
         }
     };
 

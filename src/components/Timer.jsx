@@ -27,7 +27,7 @@ function Timer({ time, onTimerEnd }) {
             <div style={timeLeftStyle}>{timeLeft}</div>
             <ProgressBar
                 bgColor={bgColor}
-                completed={((timeLeft / time) * 100).toFixed(0)}
+                completed={parseInt(((timeLeft / time) * 100).toFixed(0))}
             ></ProgressBar>
         </div>
     );
