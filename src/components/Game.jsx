@@ -1,22 +1,75 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useEffect, useCallback } from "react";
+import axios from "axios";
 import WordList from "./WordList";
 import AddWord from "./AddWord";
 import Timer from "./Timer";
+import fzSort from "fuzzysort";
 
 function Game(props) {
-    const { words, submitWord, match, reset } = props;
+    const { match, location } = props;
 
+    const [gameData, setGameData] = useState([]);
     const [gameStatus, setGameStatus] = useState("notStarted");
     const [totalScore, setTotalScore] = useState(0);
+
+    const [words, setEnteredWord] = useState([]);
+
+    const submitWord = (word) => {
+        if (word.trim().length) {
+            const options = {
+                limit: 3,
+                allowTypo: true,
+                threshold: -10000,
+                key: "text",
+            };
+
+            const result = fzSort.go(
+                word,
+                gameData,
+                options
+            );
+
+            if (result.length) {
+                const bestMatch = result[0].obj;
+
+                if (words.map((w) => w.word).includes(bestMatch.name, 0)) {
+                    console.log("same word entered");
+                    return;
+                }
+
+                setEnteredWord([
+                    ...words,
+                    {
+                        word: bestMatch.text,
+                        score: bestMatch.score,
+                    },
+                ]);
+
+                return;
+            }
+
+            setEnteredWord([
+                ...words,
+                {
+                    word,
+                    score: 0,
+                },
+            ]);
+        }
+    };
+
+    const resetWord = () => {
+        setEnteredWord([]);
+    };
 
     const handleStart = () => {
         setGameStatus("started");
     };
 
     const handleRestart = () => {
-        reset()
-        setGameStatus("started")
-    }
+        resetWord();
+        setGameStatus("started");
+    };
 
     const onTimerEnd = useCallback(
         (status) => {
@@ -33,13 +86,24 @@ function Game(props) {
     );
 
     const handleSubmitWord = (word) => {
-        submitWord(word, match.params.handle)
-    }
+        submitWord(word, match.params.handle);
+    };
+
+    useEffect(() => {
+        async function fetchData() {
+            const result = await axios.get(
+                `http://localhost:7777/word/${match.params.handle}`
+            );
+            setGameData(result.data);
+        }
+
+        fetchData();
+    }, [match.params.handle]);
 
     if (gameStatus === "started") {
         return (
             <div style={gameStyle}>
-                <h3>{match.params.handle}</h3>
+                <h3>{location.state.categoryName}</h3>
                 <WordList
                     words={words}
                     onUpdate={onTotalScoreUpdate}
@@ -54,7 +118,7 @@ function Game(props) {
         return (
             <div style={gameStyle}>
                 <div style={startGameStyle}>
-                    <h3>{match.params.handle}</h3>
+                    <h3>{location.state.categoryName}</h3>
                     <button
                         style={startGameStartButtonStyle}
                         type="button"
@@ -73,10 +137,10 @@ function Game(props) {
                 <div>Your Score</div>
                 <div>{totalScore}</div>
                 <button
-                        style={startGameStartButtonStyle}
-                        type="button"
-                        onClick={handleRestart}
-                    >
+                    style={startGameStartButtonStyle}
+                    type="button"
+                    onClick={handleRestart}
+                >
                     Play again
                 </button>
             </div>

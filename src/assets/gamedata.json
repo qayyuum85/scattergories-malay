@@ -1,0 +1,1180 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "category": "Negeri-negeri Malaysia",
+            "data": [
+                {
+                    "name": "Perlis",
+                    "score": "20"
+                },
+                {
+                    "name": "Kedah",
+                    "score": "20"
+                },
+                {
+                    "name": "Pulau Pinang",
+                    "score": "10"
+                },
+                {
+                    "name": "Perak",
+                    "score": "20"
+                },
+                {
+                    "name": "Selangor",
+                    "score": "10"
+                },
+                {
+                    "name": "Negeri Sembilan",
+                    "score": "20"
+                },
+                {
+                    "name": "Melaka",
+                    "score": "20"
+                },
+                {
+                    "name": "Johor",
+                    "score": "10"
+                },
+                {
+                    "name": "Kelantan",
+                    "score": "20"
+                },
+                {
+                    "name": "Terengganu",
+                    "score": "20"
+                },
+                {
+                    "name": "Pahang",
+                    "score": "20"
+                },
+                {
+                    "name": "Sabah",
+                    "score": "20"
+                },
+                {
+                    "name": "Sarawak",
+                    "score": "20"
+                },
+                {
+                    "name": "Wilayah Persekutuan Kuala Lumpur",
+                    "score": "10"
+                },
+                {
+                    "name": "Wilayah Putrajaya",
+                    "score": "30"
+                },
+                {
+                    "name": "Wilayah Labuan",
+                    "score": "30"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Ibu negeri Malaysia",
+            "data": [
+                {
+                    "name": "Kangar",
+                    "score": "20"
+                },
+                {
+                    "name": "Alor Setar",
+                    "score": "20"
+                },
+                {
+                    "name": "Georgetown",
+                    "score": "30"
+                },
+                {
+                    "name": "Ipoh",
+                    "score": "20"
+                },
+                {
+                    "name": "Shah Alam",
+                    "score": "30"
+                },
+                {
+                    "name": "Seremban",
+                    "score": "20"
+                },
+                {
+                    "name": "Bandaraya Melaka",
+                    "score": "30"
+                },
+                {
+                    "name": "Johor Bahru",
+                    "score": "10"
+                },
+                {
+                    "name": "Kota Bharu",
+                    "score": "20"
+                },
+                {
+                    "name": "Kuala Terengganu",
+                    "score": "20"
+                },
+                {
+                    "name": "Kuantan",
+                    "score": "20"
+                },
+                {
+                    "name": "Kota Kinabalu",
+                    "score": "20"
+                },
+                {
+                    "name": "Kuching",
+                    "score": "20"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Pulau-pulau Malaysia",
+            "data": [
+                {
+                    "name": "Aman",
+                    "score": "20"
+                },
+                {
+                    "name": "Aur",
+                    "score": "20"
+                },
+                {
+                    "name": "Banggi",
+                    "score": "30"
+                },
+                {
+                    "name": "Bidan",
+                    "score": "30"
+                },
+                {
+                    "name": "Borneo",
+                    "score": "10"
+                },
+                {
+                    "name": "Carey",
+                    "score": "30"
+                },
+                {
+                    "name": "Dayang Bunting",
+                    "score": "30"
+                },
+                {
+                    "name": "Duyong",
+                    "score": "30"
+                },
+                {
+                    "name": "Gaya/Gaia",
+                    "score": "20"
+                },
+                {
+                    "name": "Gemia",
+                    "score": "30"
+                },
+                {
+                    "name": "Jerejak",
+                    "score": "10"
+                },
+                {
+                    "name": "Kapalai",
+                    "score": "30"
+                },
+                {
+                    "name": "Kapas",
+                    "score": "20"
+                },
+                {
+                    "name": "Kendi",
+                    "score": "30"
+                },
+                {
+                    "name": "Ketam",
+                    "score": "30"
+                },
+                {
+                    "name": "Kukup ",
+                    "score": "30"
+                },
+                {
+                    "name": "Labuan",
+                    "score": "10"
+                },
+                {
+                    "name": "Lang Tengah",
+                    "score": "20"
+                },
+                {
+                    "name": "Lankayan",
+                    "score": "30"
+                },
+                {
+                    "name": "Layang-layang",
+                    "score": "20"
+                },
+                {
+                    "name": "Mabul",
+                    "score": "20"
+                },
+                {
+                    "name": "Manukan",
+                    "score": "20"
+                },
+                {
+                    "name": "Mataking",
+                    "score": "30"
+                },
+                {
+                    "name": "Pangkor",
+                    "score": "10"
+                },
+                {
+                    "name": "Payar",
+                    "score": "30"
+                },
+                {
+                    "name": "Pemanggil",
+                    "score": "30"
+                },
+                {
+                    "name": "Perhentian",
+                    "score": "10"
+                },
+                {
+                    "name": "Pisang",
+                    "score": "20"
+                },
+                {
+                    "name": "Pom pom",
+                    "score": "20"
+                },
+                {
+                    "name": "Pulau Besar",
+                    "score": "20"
+                },
+                {
+                    "name": "Pulau Pinang",
+                    "score": "10"
+                },
+                {
+                    "name": "Rawa",
+                    "score": "30"
+                },
+                {
+                    "name": "Redang",
+                    "score": "10"
+                },
+                {
+                    "name": "Rhu",
+                    "score": "20"
+                },
+                {
+                    "name": "Rimau",
+                    "score": "20"
+                },
+                {
+                    "name": "Rugokan ",
+                    "score": "30"
+                },
+                {
+                    "name": "Sibu",
+                    "score": "10"
+                },
+                {
+                    "name": "Sibu",
+                    "score": "10"
+                },
+                {
+                    "name": "Sipadan",
+                    "score": "20"
+                },
+                {
+                    "name": "Tengah",
+                    "score": "20"
+                },
+                {
+                    "name": "Tenggol",
+                    "score": "30"
+                },
+                {
+                    "name": "Tepor",
+                    "score": "30"
+                },
+                {
+                    "name": "Tiga",
+                    "score": "30"
+                },
+                {
+                    "name": "Tinggi",
+                    "score": "10"
+                },
+                {
+                    "name": "Tioman",
+                    "score": "10"
+                },
+                {
+                    "name": "Tukun",
+                    "score": "30"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Hotel-hotel Malaysia",
+            "data": [
+                {
+                    "name": "Alila Bangsar",
+                    "score": "30"
+                },
+                {
+                    "name": "Avani Sepang Goldcoast",
+                    "score": "20"
+                },
+                {
+                    "name": "Bangi Resort ",
+                    "score": "20"
+                },
+                {
+                    "name": "Banyan Tree",
+                    "score": "20"
+                },
+                {
+                    "name": "Berjaya Langkawi",
+                    "score": "10"
+                },
+                {
+                    "name": "Berjaya Times Square",
+                    "score": "20"
+                },
+                {
+                    "name": "Casa Del Rio",
+                    "score": "30"
+                },
+                {
+                    "name": "Country Garden Forest City Phoenix ",
+                    "score": "30"
+                },
+                {
+                    "name": "Crockfords ",
+                    "score": "30"
+                },
+                {
+                    "name": "Cyberview Resort & SPA",
+                    "score": "20"
+                },
+                {
+                    "name": "Dorsett",
+                    "score": "20"
+                },
+                {
+                    "name": "Double Tree by Hilton",
+                    "score": "30"
+                },
+                {
+                    "name": "Eastern & Oriental / E&O",
+                    "score": "20"
+                },
+                {
+                    "name": "Eastin",
+                    "score": "10"
+                },
+                {
+                    "name": "EQ",
+                    "score": "20"
+                },
+                {
+                    "name": "Equatorial",
+                    "score": "10"
+                },
+                {
+                    "name": "Evergreen Laurel ",
+                    "score": "20"
+                },
+                {
+                    "name": "Four Seasons ",
+                    "score": "30"
+                },
+                {
+                    "name": "G Hotel",
+                    "score": "20"
+                },
+                {
+                    "name": "Grand Bluewave",
+                    "score": "10"
+                },
+                {
+                    "name": "Grand Hyatt",
+                    "score": "20"
+                },
+                {
+                    "name": "Grand Ion Delemen",
+                    "score": "30"
+                },
+                {
+                    "name": "Lexis",
+                    "score": "20"
+                },
+                {
+                    "name": "Grand Millennium",
+                    "score": "20"
+                },
+                {
+                    "name": "Hard Rock Hotel",
+                    "score": "10"
+                },
+                {
+                    "name": "Hatten ",
+                    "score": "30"
+                },
+                {
+                    "name": "Hilton",
+                    "score": "10"
+                },
+                {
+                    "name": "Holiday Inn",
+                    "score": "10"
+                },
+                {
+                    "name": "Holiday Villa",
+                    "score": "10"
+                },
+                {
+                    "name": "Amari",
+                    "score": "30"
+                },
+                {
+                    "name": "Istana",
+                    "score": "20"
+                },
+                {
+                    "name": "Maya",
+                    "score": "30"
+                },
+                {
+                    "name": "Hyatt Regency",
+                    "score": "20"
+                },
+                {
+                    "name": "Intercontinental",
+                    "score": "20"
+                },
+                {
+                    "name": "JW Marriot",
+                    "score": "10"
+                },
+                {
+                    "name": "Le Meridien",
+                    "score": "30"
+                },
+                {
+                    "name": "Mandarin Oriental",
+                    "score": "20"
+                },
+                {
+                    "name": "Mangala Resort & SPA",
+                    "score": "30"
+                },
+                {
+                    "name": "Micasa ",
+                    "score": "30"
+                },
+                {
+                    "name": "Movenpick",
+                    "score": "30"
+                },
+                {
+                    "name": "New World ",
+                    "score": "20"
+                },
+                {
+                    "name": "Nexus",
+                    "score": "20"
+                },
+                {
+                    "name": "One World",
+                    "score": "10"
+                },
+                {
+                    "name": "Pacific Regency ",
+                    "score": "20"
+                },
+                {
+                    "name": "Pangkor Laut ",
+                    "score": "20"
+                },
+                {
+                    "name": "Park Royal",
+                    "score": "10"
+                },
+                {
+                    "name": "Pavilion",
+                    "score": "20"
+                },
+                {
+                    "name": "Pullman",
+                    "score": "10"
+                },
+                {
+                    "name": "Ramada",
+                    "score": "30"
+                },
+                {
+                    "name": "Renaissance",
+                    "score": "20"
+                },
+                {
+                    "name": "Resort World Kijal",
+                    "score": "30"
+                },
+                {
+                    "name": "Riverside Majestic ",
+                    "score": "20"
+                },
+                {
+                    "name": "Royale Chulan ",
+                    "score": "20"
+                },
+                {
+                    "name": "Sama-sama",
+                    "score": "30"
+                },
+                {
+                    "name": "Seri Pacific",
+                    "score": "20"
+                },
+                {
+                    "name": "Shaftbury Stellar",
+                    "score": "30"
+                },
+                {
+                    "name": "Shangri-La ",
+                    "score": "30"
+                },
+                {
+                    "name": "Sheraton",
+                    "score": "10"
+                },
+                {
+                    "name": "Sofitel",
+                    "score": "30"
+                },
+                {
+                    "name": "Sunway",
+                    "score": "10"
+                },
+                {
+                    "name": "Swiss Garden",
+                    "score": "10"
+                },
+                {
+                    "name": "The Andaman ",
+                    "score": "20"
+                },
+                {
+                    "name": "The Chateau SPA",
+                    "score": "30"
+                },
+                {
+                    "name": "The Danna Langkawi",
+                    "score": "20"
+                },
+                {
+                    "name": "The Datai Langkawi",
+                    "score": "20"
+                },
+                {
+                    "name": "The Gardens ",
+                    "score": "20"
+                },
+                {
+                    "name": "The Haven",
+                    "score": "20"
+                },
+                {
+                    "name": "The Kasturi Resort",
+                    "score": "20"
+                },
+                {
+                    "name": "The Light",
+                    "score": "10"
+                },
+                {
+                    "name": "The Magellan Sutera",
+                    "score": "20"
+                },
+                {
+                    "name": "The Majestic ",
+                    "score": "20"
+                },
+                {
+                    "name": "The Orchard ",
+                    "score": "20"
+                },
+                {
+                    "name": "The Pacific Sutera",
+                    "score": "20"
+                },
+                {
+                    "name": "Ritz Carlton",
+                    "score": "30"
+                },
+                {
+                    "name": "Ruma",
+                    "score": "30"
+                },
+                {
+                    "name": "Saujana Hotel",
+                    "score": "20"
+                },
+                {
+                    "name": "St. Regis",
+                    "score": "30"
+                },
+                {
+                    "name": "Taaras Beach ",
+                    "score": "30"
+                },
+                {
+                    "name": "Waterfront ",
+                    "score": "20"
+                },
+                {
+                    "name": "Westin",
+                    "score": "20"
+                },
+                {
+                    "name": "Zenith",
+                    "score": "20"
+                },
+                {
+                    "name": "Thistle",
+                    "score": "20"
+                },
+                {
+                    "name": "Vangohh Premier",
+                    "score": "30"
+                },
+                {
+                    "name": "W",
+                    "score": "20"
+                },
+                {
+                    "name": "Weil",
+                    "score": "20"
+                },
+                {
+                    "name": "A Famosa",
+                    "score": "30"
+                },
+                {
+                    "name": "Acapella",
+                    "score": "20"
+                },
+                {
+                    "name": "Adya",
+                    "score": "20"
+                },
+                {
+                    "name": "Aloft",
+                    "score": "30"
+                },
+                {
+                    "name": "Ambassador Row",
+                    "score": "20"
+                },
+                {
+                    "name": "Amverton Cove Golf",
+                    "score": "30"
+                },
+                {
+                    "name": "Ancasa",
+                    "score": "20"
+                },
+                {
+                    "name": "Ansa",
+                    "score": "20"
+                },
+                {
+                    "name": "Armada",
+                    "score": "20"
+                },
+                {
+                    "name": "Ascott",
+                    "score": "20"
+                },
+                {
+                    "name": "Aseania",
+                    "score": "20"
+                },
+                {
+                    "name": "Avillion Admiral Cove",
+                    "score": "20"
+                },
+                {
+                    "name": "Batu-batu",
+                    "score": "30"
+                },
+                {
+                    "name": "Bayview ",
+                    "score": "20"
+                },
+                {
+                    "name": "Belum Rainforest",
+                    "score": "30"
+                },
+                {
+                    "name": "Beringgis Beach",
+                    "score": "30"
+                },
+                {
+                    "name": "Berjaya",
+                    "score": "20"
+                },
+                {
+                    "name": "Camar",
+                    "score": "30"
+                },
+                {
+                    "name": "Capri by Fraser",
+                    "score": "30"
+                },
+                {
+                    "name": "Cititel",
+                    "score": "10"
+                },
+                {
+                    "name": "Colmar Tropicale ",
+                    "score": "20"
+                },
+                {
+                    "name": "Concorde",
+                    "score": "10"
+                },
+                {
+                    "name": "Copthorne",
+                    "score": "20"
+                },
+                {
+                    "name": "Corus",
+                    "score": "20"
+                },
+                {
+                    "name": "Corus Paradise ",
+                    "score": "20"
+                },
+                {
+                    "name": "Country Garden Forest City Golf",
+                    "score": "20"
+                },
+                {
+                    "name": "Crystal Crowm",
+                    "score": "10"
+                },
+                {
+                    "name": "D Wharf ",
+                    "score": "30"
+                },
+                {
+                    "name": "Damai",
+                    "score": "20"
+                },
+                {
+                    "name": "Eco Tree",
+                    "score": "20"
+                },
+                {
+                    "name": "Element",
+                    "score": "20"
+                },
+                {
+                    "name": "Embun Luxury Villas",
+                    "score": "20"
+                },
+                {
+                    "name": "Estadia",
+                    "score": "30"
+                },
+                {
+                    "name": "Flamingo",
+                    "score": "20"
+                },
+                {
+                    "name": "Four Points by Sheraton",
+                    "score": "20"
+                },
+                {
+                    "name": "Furama",
+                    "score": "20"
+                },
+                {
+                    "name": "Golden Bay",
+                    "score": "20"
+                },
+                {
+                    "name": "Golden Sand ",
+                    "score": "20"
+                },
+                {
+                    "name": "Grand Alora",
+                    "score": "20"
+                },
+                {
+                    "name": "Grand Darulmakmur",
+                    "score": "20"
+                },
+                {
+                    "name": "Grand Palace ",
+                    "score": "10"
+                },
+                {
+                    "name": "Grand Riverview",
+                    "score": "20"
+                },
+                {
+                    "name": "Heritage",
+                    "score": "10"
+                },
+                {
+                    "name": "Hompton",
+                    "score": "30"
+                },
+                {
+                    "name": "Horizon",
+                    "score": "20"
+                },
+                {
+                    "name": "Awana Genting",
+                    "score": "20"
+                },
+                {
+                    "name": "Casuarina/Meru",
+                    "score": "20"
+                },
+                {
+                    "name": "Excelsior",
+                    "score": "30"
+                },
+                {
+                    "name": "Granada",
+                    "score": "30"
+                },
+                {
+                    "name": "Grandis",
+                    "score": "30"
+                },
+                {
+                    "name": "Jen Penang",
+                    "score": "30"
+                },
+                {
+                    "name": "Jen Puteri Harbour",
+                    "score": "30"
+                },
+                {
+                    "name": "Le Grandeur Palm",
+                    "score": "30"
+                },
+                {
+                    "name": "Perdana",
+                    "score": "20"
+                },
+                {
+                    "name": "Royal",
+                    "score": "20"
+                },
+                {
+                    "name": "Stripes",
+                    "score": "20"
+                },
+                {
+                    "name": "Hyatt House ",
+                    "score": "20"
+                },
+                {
+                    "name": "Ibis",
+                    "score": "20"
+                },
+                {
+                    "name": "Iconic",
+                    "score": "20"
+                },
+                {
+                    "name": "Imperial",
+                    "score": "10"
+                },
+                {
+                    "name": "Impiana",
+                    "score": "20"
+                },
+                {
+                    "name": "Ixora",
+                    "score": "20"
+                },
+                {
+                    "name": "Japamala",
+                    "score": "30"
+                },
+                {
+                    "name": "Jinhold",
+                    "score": "30"
+                },
+                {
+                    "name": "Kinta",
+                    "score": "20"
+                },
+                {
+                    "name": "KSL Resort",
+                    "score": "20"
+                },
+                {
+                    "name": "Laguna Redang",
+                    "score": "20"
+                },
+                {
+                    "name": "Lanson Place ",
+                    "score": "30"
+                },
+                {
+                    "name": "Liu Men",
+                    "score": "30"
+                },
+                {
+                    "name": "Lotus Desaru",
+                    "score": "20"
+                },
+                {
+                    "name": "M Roof",
+                    "score": "30"
+                },
+                {
+                    "name": "M Suites",
+                    "score": "20"
+                },
+                {
+                    "name": "Mahkota",
+                    "score": "20"
+                },
+                {
+                    "name": "Mega",
+                    "score": "20"
+                },
+                {
+                    "name": "Melia",
+                    "score": "20"
+                },
+                {
+                    "name": "Mercure ",
+                    "score": "30"
+                },
+                {
+                    "name": "Mimpi",
+                    "score": "20"
+                },
+                {
+                    "name": "MITC",
+                    "score": "20"
+                },
+                {
+                    "name": "Moty",
+                    "score": "30"
+                },
+                {
+                    "name": "Nilai Springs",
+                    "score": "20"
+                },
+                {
+                    "name": "Novotel",
+                    "score": "20"
+                },
+                {
+                    "name": "Oakwood ",
+                    "score": "20"
+                },
+                {
+                    "name": "Oasia",
+                    "score": "30"
+                },
+                {
+                    "name": "Olive Tree",
+                    "score": "20"
+                },
+                {
+                    "name": "Pan Borneo",
+                    "score": "20"
+                },
+                {
+                    "name": "Paya Beach",
+                    "score": "20"
+                },
+                {
+                    "name": "PNB ",
+                    "score": "20"
+                },
+                {
+                    "name": "Premiere",
+                    "score": "20"
+                },
+                {
+                    "name": "Purest Hotel",
+                    "score": "20"
+                },
+                {
+                    "name": "Rainbow Paradise",
+                    "score": "20"
+                },
+                {
+                    "name": "RH",
+                    "score": "20"
+                },
+                {
+                    "name": "Samalaju",
+                    "score": "30"
+                },
+                {
+                    "name": "Sand & Sandals Desaru",
+                    "score": "30"
+                },
+                {
+                    "name": "Seafest",
+                    "score": "20"
+                },
+                {
+                    "name": "Somerset",
+                    "score": "20"
+                },
+                {
+                    "name": "Strawberry Park",
+                    "score": "20"
+                },
+                {
+                    "name": "Summer Bay ",
+                    "score": "20"
+                },
+                {
+                    "name": "Symphony",
+                    "score": "10"
+                },
+                {
+                    "name": "Tamu ",
+                    "score": "30"
+                },
+                {
+                    "name": "Tanah Aina Farrah Soraya",
+                    "score": "30"
+                },
+                {
+                    "name": "TH ",
+                    "score": "30"
+                },
+                {
+                    "name": "Boulevard",
+                    "score": "20"
+                },
+                {
+                    "name": "Everly",
+                    "score": "30"
+                },
+                {
+                    "name": "Federal ",
+                    "score": "20"
+                },
+                {
+                    "name": "Frangipani",
+                    "score": "30"
+                },
+                {
+                    "name": "Grand Renai",
+                    "score": "20"
+                },
+                {
+                    "name": "Guest",
+                    "score": "20"
+                },
+                {
+                    "name": "Katerina",
+                    "score": "20"
+                },
+                {
+                    "name": "Northam ",
+                    "score": "20"
+                },
+                {
+                    "name": "Palace ",
+                    "score": "20"
+                },
+                {
+                    "name": "Pearl",
+                    "score": "20"
+                },
+                {
+                    "name": "Pines",
+                    "score": "20"
+                },
+                {
+                    "name": "Qamar Paka ",
+                    "score": "20"
+                },
+                {
+                    "name": "Reef Dive ",
+                    "score": "20"
+                },
+                {
+                    "name": "Settlement ",
+                    "score": "20"
+                },
+                {
+                    "name": "Straits ",
+                    "score": "30"
+                },
+                {
+                    "name": "Wembley",
+                    "score": "30"
+                },
+                {
+                    "name": "Tok Aman Bali",
+                    "score": "30"
+                },
+                {
+                    "name": "Tower Regency",
+                    "score": "20"
+                },
+                {
+                    "name": "Treasures",
+                    "score": "20"
+                },
+                {
+                    "name": "Tunamaya",
+                    "score": "20"
+                },
+                {
+                    "name": "VE",
+                    "score": "20"
+                },
+                {
+                    "name": "Verdant Hill",
+                    "score": "20"
+                },
+                {
+                    "name": "Villa Danialla",
+                    "score": "20"
+                },
+                {
+                    "name": "Vistana",
+                    "score": "10"
+                },
+                {
+                    "name": "Vouk",
+                    "score": "30"
+                },
+                {
+                    "name": "1825 Gallery",
+                    "score": "30"
+                },
+                {
+                    "name": "1969",
+                    "score": "30"
+                }
+            ]
+        }
+    ]
+}
