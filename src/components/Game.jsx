@@ -92,7 +92,7 @@ function Game(props) {
     useEffect(() => {
         async function fetchData() {
             const result = await axios.get(
-                `http://localhost:7777/word/${match.params.handle}`
+                `http://localhost:7777/api/word/${match.params.handle}`
             );
             setGameData(result.data);
         }

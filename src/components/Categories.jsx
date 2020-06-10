@@ -7,7 +7,7 @@ function Categories(props) {
 
     useEffect(() => {
         axios
-            .get("http://localhost:7777/categories")
+            .get("http://localhost:7777/api/categories")
             .then((res) => {
                 setCategories(res.data);
             })
@@ -22,7 +22,7 @@ function Categories(props) {
                         key={idx}
                         style={childStyle}
                         to={{
-                            pathname: `/categories/${category.id}`,
+                            pathname: `/categories/${category.category_id}`,
                             state: {
                                 categoryName: category.name
                             }

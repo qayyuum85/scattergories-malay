@@ -21,6 +21,10 @@ function Header() {
                     <Link to="/categories" style={linkStyle}>
                         Categories
                     </Link>
+                    &nbsp;|&nbsp;
+                    <Link to="/admin/edit" style={linkStyle}>
+                        Edit Word
+                    </Link>
                 </div>
                 <div>
                     {!isAuthenticated && (

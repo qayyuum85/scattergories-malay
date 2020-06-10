@@ -9,6 +9,7 @@ import history from "./utils/history";
 import Profile from "./components/Profile";
 import PrivateRoute from "./components/PrivateRoute";
 import ExternalAPI from './components/ExternalAPI'
+import EditWord from './components/admin/EditWord'
 
 function App() {
     const { loading } = useAuth0();
@@ -51,6 +52,7 @@ function App() {
                             render={(props) => <Game {...props}></Game>}
                         ></Route>
                         <PrivateRoute path="/profile" component={Profile}></PrivateRoute>
+                        <PrivateRoute path="/admin/edit" component={EditWord}></PrivateRoute>
                     </Switch>
                     <footer>
                         <ExternalAPI></ExternalAPI>
